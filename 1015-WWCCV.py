@@ -5,7 +5,7 @@ def is_credit_card_valid(card_number):
     return luhn.verify(card_number)
 
 # Let's tell the world whose credit card validator this is.
-print("Your Credit Card Validator")
+print("Sree Kona Card Validator")
 
 # Let's get the card number from the user
 card_number = input("Enter your 16-digit credit card number: ")
